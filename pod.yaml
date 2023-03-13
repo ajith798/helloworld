@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+meta-data:
+  name: hello-pod
+spec:
+  containers:
+  - name: cont1
+    image: ajith798/app
+    ports:
+      - containerPort: 8000
